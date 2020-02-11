@@ -1,0 +1,140 @@
+ @import url('https://fonts.google.com/specimen/Poppins');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("../images/bg-intro-desktop.png");
+    background-size: cover;
+    background-position: center;
+    font-family: sans serif;
+    background-color: hsl(0, 100%, 74%);
+}
+#main{
+    width: 500px;
+    height: 450px;
+    top: 10%;
+    left: 10%;
+    background: transparent;
+    border-radius: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#main h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 50px;
+}
+#main p{
+   color: #fff;
+   text-align: left;
+   /* font-size: 50px; */
+}
+#body h1{
+    color: #fff;
+}
+#body span{
+    color: rgb(201, 198, 198);
+}
+.Box {
+    width: 410px;
+    height: 50px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    top: 15%;
+    left: 70%;
+    box-shadow: 4px 4px 4px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color:black;
+    font-size:10px;
+    padding: 5px;
+    text-align: center;
+}
+.Login-Box {
+    box-shadow: 4px 4px 4px;
+    width: 410px;
+    height: 430px;
+    background: #fff;
+    top: 55%;
+    left: 70%;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+input[ type="text"] {
+    border: 0.01 solid black;
+    border-radius:5px;
+    outline: none;
+    width: 350px;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+}
+input[ type="text"]:hover {
+    cursor: pointer;
+    border: 1px solid black
+}
+ input[ type="password"] {
+    border: 0.1 solid black;
+    border-radius:5px;
+    outline: none;
+    width: 350px;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+}
+input[ type="password"]:hover {
+    cursor: pointer;
+    border: 1px solid black
+}
+ input[ type="email"] {
+    border: 0.1 solid black;
+    border-radius:5px;
+    outline: none;
+    width: 350px;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+}
+input[ type="email"]:hover {
+    cursor: pointer;
+    border: 1px solid black
+}
+
+input[ type="submit"] {
+    outline: none;
+    border:1px solid hsl(154, 59%, 51%);
+    font-size: 18px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    color: #fff;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+     
+}
+
+input[ type="submit"]:hover {
+    cursor: pointer;
+    opacity: .60;
+}
+
+#body  a {
+    text-decoration: none;
+    font-size: 12px;
+    color: hsl(0, 100%, 74%);
+}
+#body a:hover {
+    cursor: pointer;
+}
+@media only screen and (min-width:375px) {
+
+}
